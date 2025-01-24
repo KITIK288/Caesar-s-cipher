@@ -48,3 +48,13 @@ function cipher(cod) {
 }
 
 console.log(cipher("In a hole in the ground there lived a hobbit."));
+
+function test(password) {
+    if (cipher("In a hole in the ground there lived a hobbit.") === "Lq d kroh lq wkh jurxqg wkhuh olyhg d kreelw.") {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+console.log(test());
